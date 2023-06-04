@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/flapkap
-    username: flapkap
-    password: flapkap_password
+    url: jdbc:postgresql://localhost:5432/vmachine
+    username: admin
+    password: password
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
