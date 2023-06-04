@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/flapkap
+    username: flapkap
+    password: flapkap_password
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+logging:
+  level:
+    org.springframework.security: DEBUG
+
+jwt:
+  secret: 645367556B58703273357638792F423F4528482B4D6251655468576D59713374
+  expiration: 18000000
